@@ -1,4 +1,4 @@
-FROM node:iron-bookworm-slim
+FROM node:21.3-bullseye-slim
 
 RUN npm install -g npm@9.1.3
 
